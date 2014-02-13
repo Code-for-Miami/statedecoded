@@ -1,0 +1,21 @@
+/* IE Kid-Gloves...  Version:  20110222_1146 */
+
+/* IMPORTANT!  IMPORTANT!  IMPORTANT!  
+DO NOT MODIFY THIS FILE DIRECTLY.  
+YOU SHOULD MODIFY THE MASTER ON THE DEV SERVER
+(V:\MASTER\NewHTMLsetupFiles\MCC_styles.css), TEST IT, 
+AND THEN COPY THE CHANGES TO THIS FILE OR 
+COPY THE WHOLE FILE TO THIS FOLDER.
+*/
+
+/* table stuff */
+table {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+td, th {
+	font-size:10pt;
+	border:1px solid black;
+}

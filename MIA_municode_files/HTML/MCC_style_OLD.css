@@ -1,0 +1,614 @@
+/* Version:  20100421_1435 */
+
+html {
+scrollbar-base-color: #ddd;
+scrollbar-arrow-color: #9c0504; 
+scrollbar-track-color: #ffffff;
+
+scrollbar-shadow-color:#ddd;
+scrollbar-lightshadow-color: #fff;
+scrollbar-darkshadow-color: #ddd;
+
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+}
+
+
+a {
+outline: none;
+color:#8a3132;
+}
+
+a img {
+border: none;
+}
+
+a:hover{ color:#000; }
+
+body {
+	color: #000000;
+	/* background-color: #FFFFE8 */
+	/* width:580px; */
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color:black; 
+	font-size:12px;
+}
+
+
+div { 
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;
+	padding-right:12px;
+	clear:both;
+	}
+
+
+p { 
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color:black; 
+	font-size:12px;
+	padding-right:12px;
+	/* margin: 0.2em 0em 0em 3em;  */
+	}
+
+p.incr0 {float:left; margin: 0.2em 0em 0em 3em; width:2em; font-weight:bold; clear:left }
+p.incr1 {float:left; margin: 0.2em 0em 0em 6em; width:2em;  font-weight:bold; clear:left }
+p.incr2 {float:left; margin: 0.2em 0em 0em 9em; width:2em; font-weight:bold; clear:left }
+p.incr3 {float:left; margin: 0.2em 0em 0em 12em; width:2em; font-weight:bold; clear:left }
+p.incr4 {float:left; margin: 0.2em 0em 0em 15em; width:2em; font-weight:bold; clear:left }
+p.incr5 {float:left; margin: 0.2em 0em 0em 18em; width:2em; font-weight:bold; clear:left }
+p.incr6 {float:left; margin: 0.2em 0em 0em 21em; width:2em; font-weight:bold; clear:left }
+p.incr7 {float:left; margin: 0.2em 0em 0em 24em; width:2em; font-weight:bold; clear:left }
+p.incr8 {float:left; margin: 0.2em 0em 0em 27em; width:2em; font-weight:bold; clear:left }
+p.incr9 {float:left; margin: 0.2em 0em 0em 30em; width:2em; font-weight:bold; clear:left }
+
+
+p.incr_ml0 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml1 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml2 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml3 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml4 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml5 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml6 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml7 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml8 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+p.incr_ml9 {float:left; margin: 0.2em 0em 0em 0em; width:2em; font-weight:bold; }
+
+
+p.listheader0 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader1 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader2 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader3 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader4 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader5 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader6 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader7 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader8 {float:left; margin: 0.2em 0em 0em 0em; }
+p.listheader9 {float:left; margin: 0.2em 0em 0em 0em; }
+
+
+p.content0 {margin: 0.2em 0em 0em 3em;}
+p.content1 {margin: 0.2em 0em 0em 6em;}
+p.content2 {margin: 0.2em 0em 0em 9em;}
+p.content3 {margin: 0.2em 0em 0em 12em; }
+p.content4 {margin: 0.2em 0em 0em 15em; }
+p.content5 {margin: 0.2em 0em 0em 18em; }
+p.content6 {margin: 0.2em 0em 0em 21em; }
+p.content7 {margin: 0.2em 0em 0em 24em; }
+p.content8 {margin: 0.2em 0em 0em 27em; }
+p.content9 {margin: 0.2em 0em 0em 30em; }
+
+
+p.contentlistheader0 {margin: 0.2em 0em 0em 3em; }
+p.contentlistheader1 {margin: 0.2em 0em 0em 6em; }
+p.contentlistheader2 {margin: 0.2em 0em 0em 9em; }
+p.contentlistheader3 {margin: 0.2em 0em 0em 12em; }
+p.contentlistheader4 {margin: 0.2em 0em 0em 15em; }
+p.contentlistheader5 {margin: 0.2em 0em 0em 18em; }
+p.contentlistheader6 {margin: 0.2em 0em 0em 21em; }
+p.contentlistheader7 {margin: 0.2em 0em 0em 24em; }
+p.contentlistheader8 {margin: 0.2em 0em 0em 27em; }
+p.contentlistheader9 {margin: 0.2em 0em 0em 30em; }
+
+
+/*
+.content {
+	float:left;
+	width:0px;
+	margin: 0.2em 0em em 3em; 
+	font-weight:bold;
+	color:blue;
+	clear:both;
+}
+*/
+
+
+.amended    {
+        color:black;
+        background-color:#F0E68C;
+        margin-left:10px;
+        font-weight:normal;
+    }
+    
+a.amended {text-decoration:underline;}
+	
+	
+/* top-right-bottom-left*/
+.bheader0 { margin: 0em 0em 0em 3em; font-weight:bold }
+.bheader1 { margin: 0em 0em 0em 6em; font-weight:bold }
+.bheader2 { margin: 0em 0em 0em 9em; font-weight:bold }
+.bheader3 { margin: 0em 0em 0em 12em; font-weight:bold }
+.bheader4 { margin: 0em 0em 0em 15em; font-weight:bold }
+.bheader5 { margin: 0em 0em 0em 18em; font-weight:bold }
+.bheader6 { margin: 0em 0em 0em 21em; font-weight:bold }
+.bheader7 { margin: 0em 0em 0em 24em; font-weight:bold }
+.bheader8 { margin: 0em 0em 0em 27em; font-weight:bold }
+.bheader9 { margin: 0em 0em 0em 30em; font-weight:bold }
+
+
+.l0header {margin: 0em 0em 0em 3em;}
+.l1header {margin: 0em 0em 0em 3em;}
+.l2header {margin: 0em 0em 0em 3em;}
+.l3header {margin: 0em 0em 0em 3em;}
+.l4header {margin: 0em 0em 0em 3em;}
+.l5header {margin: 0em 0em 0em 3em;}
+.l6header {margin: 0em 0em 0em 3em;}
+.l7header {margin: 0em 0em 0em 3em;}
+.l8header {margin: 0em 0em 0em 3em;}
+.l9header {margin: 0em 0em 0em 3em;}
+
+/* interp... */
+	/* top-right-bottom-left*/
+.interpA	{margin: 0.2em 0em 0.25em 2em; font-weight:bold }
+.interpB	{ margin: -1.5em 0em 0.25em 10em }
+.interpC	{margin: 0.2em 0em 2em 2em; text-indent:3em }
+
+
+
+.wrap {
+padding:1px;
+border:1px solid #ccc;
+margin-right:5px;
+margin-left:5px;
+}
+
+
+div.breadcrumbs {
+	/* top-right-bottom-left*/
+	margin: 0.1em 0em 0.5em 0em;
+	background-color:#fef6df;
+	font-size:10pt;
+	font-weight:bold;
+	color:#ffd669;
+	padding:10px;
+    border-bottom:1px solid #a6a59b;
+}
+
+a.crumb {
+	font-size:10pt;
+	font-weight:bold;
+	color:#9c9b90;
+    text-decoration: none;
+    
+}
+a.crumb:hover{ text-decoration: underline; color:#822223;  }
+
+a.last{  color:#822223;}
+
+/* cite (UL) stuff...*/
+.ulsingle {text-decoration: underline }
+.ulstrike {text-decoration: line-through }
+.uloverrule {text-decoration: overline }
+
+/* These all default to standard underline, for now... */
+.ulxpp04 { text-decoration: underline }
+.ulxpp05 { text-decoration: underline }
+.ulxpp06 { text-decoration: underline }
+.ulxpp07 { text-decoration: underline }
+.ulxpp08 { text-decoration: underline }
+.ulxpp09 { text-decoration: underline }
+.ulxpp10 { text-decoration: underline }
+
+/* table stuff */
+.tableC	{margin: 0.2em 0em 0em 150px; color:darkred; font-weight:bold; font-size:10pt}
+
+.t {border-top-color:black ; border-top-style:solid; border-top-width:1}
+.r {border-right-color:black ; border-right-style:solid ; border-right-width:1}
+.b {border-bottom-color:black ; border-bottom-style:solid ; border-bottom-width:1}
+.l {border-left-color:black ; border-left-style:solid ; border-left-width:1}
+
+.sig_table {
+	margin: 0.2em 0em 0em 3em; 
+	text-indent: 0em;
+	border-style: none;
+}
+
+.sig_table_cell {
+	text-indent: 0em;
+	border-style: none;
+}
+
+div{margin-right:auto; margin-left:auto;}
+div.table{text-align:left;}
+
+font.bg_black {background-color:black}
+font.bg_white {background-color:white}
+font.bg_red {background-color:red}
+font.bg_green {background-color:lightgreen}
+font.bg_blue {background-color:blue}
+font.bg_cyan {background-color:cyan}
+font.bg_magenta {background-color:magenta}
+font.bg_yellow {background-color:yellow}
+
+/* MCC CUSTOM BACKGROUND COLORS */
+font.bg_darkviolet {background-color:darkviolet}
+
+
+.bg_lightgrey {background-color:#C0C0C0}		#standard Web "lightgrey"
+
+.bg_10 {background-color:#E5E5E5}
+.bg_15 {background-color:#D8D8D8}
+.bg_20 {background-color:#CCCCCC}
+.bg_25 {background-color:#BFBFBF}
+
+p.seclink {margin: 0.2em 0em 0.2em 4em; font-size:1em; background-color:white; clear:both;}
+
+
+div.ulink1 {margin: 0.2em 0em 0.2em 0em }
+div.ulink2 {margin: 0.2em 0em 0.2em 3em }
+div.ulink3 {margin: 0.2em 0em 0.2em 6em }
+div.ulink4 {margin: 0.2em 0em 0.2em 9em }
+div.ulink5 {margin: 0.2em 0em 0.2em 12em }
+div.ulink6 {margin: 0.2em 0em 0.2em 15em }
+div.ulink7 {margin: 0.2em 0em 0.2em 18em }
+
+/*
+div.l0 	{margin: 0.2em 0em 1em 3em }
+div.l1 	{margin: 0.2em 0em 1em 3em }
+div.l2 	{margin: 0.2em 0em 1em 3em }
+div.l3 	{margin: 0.2em 0em 1em 3em }
+div.l4 	{margin: 0.2em 0em 1em 3em }
+div.l5 	{margin: 0.2em 0em 1em 3em }
+div.l6 	{margin: 0.2em 0em 1em 3em }
+div.l7 	{margin: 0.2em 0em 1em 3em }
+div.l8 	{margin: 0.2em 0em 1em 3em }
+div.l9 	{margin: 0.2em 0em 1em 3em }
+*/
+
+/* listitem div's inside paras... */
+/*
+div.paral0 	{margin: 0.2em 0em 1em 3em }
+div.paral1 	{margin: 0.2em 0em 1em 6em  }
+div.paral2 	{margin: 0.2em 0em 1em 9em  }
+div.paral3 	{margin: 0.2em 0em 1em 12em  }
+div.paral4 	{margin: 0.2em 0em 1em 15em  }
+div.paral5 	{margin: 0.2em 0em 1em 18em  }
+div.paral6 	{margin: 0.2em 0em 1em 21em  }
+div.paral7 	{margin: 0.2em 0em 1em 24em  }
+div.paral8 	{margin: 0.2em 0em 1em 27em  }
+div.paral9 	{margin: 0.2em 0em 1em 30em  }
+*/
+
+h1 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+font-weight: bold; font-size:15px;
+text-transform:uppercase;
+color:#ccc;
+padding:10px;
+/*  border:1px dotted #ccc;  */
+/*background:#9c0504; */ /*last*/
+/* background:url(../images/graybg.jpg); */
+}
+
+h2 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+font-weight: bold; font-size:13px;
+padding:7px;
+/* border-top:3px solid #ccc;
+border-bottom:1px dotted #ccc; */
+
+/* border-bottom:1px solid #80161c; */
+}
+.wrap h2{ color:#000; }
+h2.tops{
+    border-top:1px solid #8a8981; 
+    border-bottom:0px solid #8a8981; 
+    color:#000;
+}
+h2 a{ color:#000;}
+
+.sec a{text-decoration:none;}
+
+.showURL { text-decoration:none; color:#000; }
+
+a.showURLs {   background:url(http://devlibrary.municode.com/images/copy.png) top right no-repeat; padding-right:18px;  }
+a.showURLs:hover {   background:url(http://devlibrary.municode.com/images/copy_h.png) top right no-repeat;    }
+
+a.toplink { color:#000; text-decoration:none; font-size:15px; font-weight:bold; margin:0px 5px 22px 0px; padding-left:12px; } 
+ 
+a.showURL { float:left; }
+a.showURL sup{ clear:both; }
+
+
+h3 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+color:#80161c; font-weight: bold; font-size:12px;
+padding:10px;
+border:1px solid #ccc;
+border-left:3px solid #80161c;
+}
+
+h4 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+color: #80161c; font-weight: bold; font-size:9pt;
+padding:10px;
+}
+
+h5 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+color: #80161c; font-weight: bold; font-size:9pt
+}
+
+h6 {
+font-family: Arial, Helvetica, Verdana, sans-serif;
+color: #80161c; font-weight: bold; font-size:9pt
+}
+
+/* top-right-bottom-left*/
+h1 {margin: 0.2em 0em 1em 0em; color:#fff;}
+h2 {margin: 0.2em 0em 1em 0em; }
+h3 {margin: 0.2em 0em 1em 0em;  }
+h4 {margin: 0.2em 0em 1em 0em; background-color:#EEEEEE  }
+h5 {margin: 0.2em 0em 1em 0em; background-color:#EEEEEE }
+h6 {margin: 0.2em 0em 1em 0em; background-color:#EEEEEE }
+
+h1.debug {margin: 0.2em 0em 1em 0em; color:yellow; background-color:red }
+
+/* top-right-bottom-left*/
+p.mainTitle{color:darkblue; background-color:#8DD8E6; font-weight: bold; font-size:18pt}
+
+/* REFERENCE NOTES */
+/* <!-- refmanual, refeditor, refgeneric, refcharter, refcross, refstatelaw, refnote, refcaselaw --> */
+/*
+p.refmanual				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refeditor				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refgeneric				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcharter				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcross				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refstateconst		{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcaselaw			{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcaselawanno	{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refnote					{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refstatelaw			{margin: 0.2em 0em 1em  2.8em; color:purple;  font-size:10pt}
+*/
+
+/* REFERENCE NOTES INSIDE FOOTNOTES */
+/*
+p.refmanualFN				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refeditorFN				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refgenericFN				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcharterFN				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcrossFN				{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refstateconstFN		{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcaselawFN			{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refcaselawannoFN	{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refnoteFN					{margin: 0.2em 0em 1em  3.8em; color:purple;  font-size:0.8em}
+p.refstatelawFN			{margin: 0.2em 0em 1em  2.8em; color:purple;  font-size:10pt}
+*/
+
+/* REFERENCE NOTES */
+/* <!-- refmanual, refeditor, refgeneric, refcharter, refcross, refstatelaw, refnote, refcaselaw --> */
+p.refmanual				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refeditor				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refgeneric				{ color:black; font-weight:normal; font-size:8px; font-style:italic; margin-left:3.6em }
+p.refcharter				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refcross				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refstateconst		{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refcaselaw			{ color:#a2a09a; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em } /* DIFFERENT COLOR */
+p.refcaselawanno	{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refnote					{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refstatelaw			{margin: 0.2em 0em 1em  2.8em; color:purple;  font-size:10pt}
+
+/* REFERENCE NOTES INSIDE FOOTNOTES */
+p.refmanualFN				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refeditorFN				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refgenericFN				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refcharterFN				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refcrossFN				{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refstateconstFN		{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refcaselawFN			{ color:#a2a09a; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }  /* DIFFERENT COLOR */
+p.refcaselawannoFN	{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refnoteFN					{ color:#93918d; font-weight:normal; font-size:11px; font-style:italic; margin-left:3.6em }
+p.refstatelawFN			{margin: 0.2em 0em 1em  2.8em; color:purple;  font-size:10pt}
+
+p.historynote {margin: 0.2em 0em 0.2em 3.6em; color:#a2a09a; font-weight:normal; font-size:11px; font-style:italic;}
+
+
+p.pc0 	{margin: 0.2em 1em 1em 3em ; background:#eee; padding:10px;}
+p.pc1 	{margin: 0.2em 0em 1em 3em  }
+p.pc2 	{margin: 0.2em 0em 1em 3em  }
+p.pc3 	{margin: 0.2em 0em 1em 3em  }
+p.pc4 	{margin: 0.2em 0em 1em 3em  }
+p.pc5 	{margin: 0.2em 0em 1em 3em  }
+p.pc6 	{margin: 0.2em 0em 1em 3em  }
+p.pc7 	{margin: 0.2em 0em 1em 3em  }
+p.pc8 	{margin: 0.2em 0em 1em 3em  }
+p.pc9 	{margin: 0.2em 0em 1em 3em  }
+
+p.p0 	{margin: 0.2em 0em 1em 3em; text-indent:3em; }
+p.p1 	{margin: 0.2em 0em 1em 6em; text-indent:3em;  }
+p.p2 	{margin: 0.2em 0em 1em 9em; text-indent:3em;  }
+p.p3 	{margin: 0.2em 0em 1em 12em; text-indent:3em;  }
+p.p4 	{margin: 0.2em 0em 1em 15em; text-indent:3em;  }
+p.p5 	{margin: 0.2em 0em 1em 18em; text-indent:3em;  }
+p.p6 	{margin: 0.2em 0em 1em 21em; text-indent:3em;  }
+p.p7 	{margin: 0.2em 0em 1em 24em; text-indent:3em;  }
+p.p8 	{margin: 0.2em 0em 1em 27em; text-indent:3em;  }
+p.p9 	{margin: 0.2em 0em 1em 30em; text-indent:3em;  }
+
+.hanging-indent {
+text-indent: -25px;
+padding-left: 25px;
+}
+
+p.h0 	{margin: 0.2em 0em 1em 6em;   text-indent:-3em  }
+p.h1 	{margin: 0.2em 0em 1em 9em;   text-indent:-3em  }
+p.h2 	{margin: 0.2em 0em 1em 12em; text-indent:-3em  }
+p.h3 	{margin: 0.2em 0em 1em 15em; text-indent:-3em  }
+p.h4 	{margin: 0.2em 0em 1em 18em; text-indent:-3em  }
+p.h5 	{margin: 0.2em 0em 1em 21em; text-indent:-3em  }
+p.h6 	{margin: 0.2em 0em 1em 24em; text-indent:-3em  }
+p.h7 	{margin: 0.2em 0em 1em 27em; text-indent:-3em  }
+p.h8 	{margin: 0.2em 0em 1em 30em; text-indent:-3em  }
+p.h9 	{margin: 0.2em 0em 1em 3em;   text-indent:-3em  }
+
+
+div.toc {font-size:1em}
+
+p.p0_toc	{margin: 0.2em 0em 0.2em 10px; text-indent:10px; font-size:0.8em}
+p.p1_toc 	{margin: 0.2em 0em 0.2em 20px; text-indent:10px; font-size:0.8em  }
+p.p2_toc 	{margin: 0.2em 0em 0.2em 30px; text-indent:10px; font-size:0.8em  }
+p.p3_toc 	{margin: 0.2em 0em 0.2em 40px; text-indent:10px; font-size:0.8em  }
+p.p4_toc 	{margin: 0.2em 0em 0.2em 50px; text-indent:10px; font-size:0.8em  }
+p.p5_toc 	{margin: 0.2em 0em 0.2em 60px; text-indent:10px; font-size:0.8em  }
+p.p6_toc 	{margin: 0.2em 0em 0.2em 70px; text-indent:10px; font-size:0.8em  }
+p.p7_toc 	{margin: 0.2em 0em 0.2em 80px; text-indent:10px; font-size:0.8em  }
+p.p8_toc 	{margin: 0.2em 0em 0.2em 90px; text-indent:10px; font-size:0.8em  }
+p.p9_toc 	{margin: 0.2em 0em 0.2em 100px; text-indent:10px; font-size:0.8em  }
+
+
+/* centered blocks NO INDENTS*/
+p.bc0 	{margin: 0.2em 0em 1em 3em }
+p.bc1 	{margin: 0.2em 0em 1em 3em }
+p.bc2 	{margin: 0.2em 0em 1em 3em }
+p.bc3 	{margin: 0.2em 0em 1em 3em }
+p.bc4 	{margin: 0.2em 0em 1em 3em }
+p.bc5 	{margin: 0.2em 0em 1em 3em }
+p.bc6 	{margin: 0.2em 0em 1em 3em }
+p.bc7 	{margin: 0.2em 0em 1em 3em }
+p.bc8 	{margin: 0.2em 0em 1em 3em }
+p.bc9 	{margin: 0.2em 0em 1em 3em }
+
+
+
+p.b0 	{margin: 0.2em 0em 0em 3em; text-indent:0em; }
+p.b1 	{margin: 0.2em 0em 0em 6em; text-indent:0em; }
+p.b2 	{margin: 0.2em 0em 0em 9em; text-indent:0em; }
+p.b3 	{margin: 0.2em 0em 0em 12em; text-indent:0em; }
+p.b4 	{margin: 0.2em 0em 0em 15em; text-indent:0em  }
+p.b5 	{margin: 0.2em 0em 0em 18em; text-indent:0em  }
+p.b6 	{margin: 0.2em 0em 0em 21em; text-indent:0em  }
+p.b7 	{margin: 0.2em 0em 0em 24em; text-indent:0em  }
+p.b8 	{margin: 0.2em 0em 0em 27em; text-indent:0em  }
+p.b9 	{margin: 0.2em 0em 0em 30em; text-indent:0em  }
+
+
+/* blocks inside listitems */
+/*
+p.listbc0 	{margin: 0.2em 0em 1em 3em }
+p.listbc1 	{margin: 0.2em 0em 1em 3em }
+p.listbc2 	{margin: 0.2em 0em 1em 3em }
+p.listbc3 	{margin: 0.2em 0em 1em 3em }
+p.listbc4 	{margin: 0.2em 0em 1em 3em }
+p.listbc5 	{margin: 0.2em 0em 1em 3em }
+p.listbc6 	{margin: 0.2em 0em 1em 3em }
+p.listbc7 	{margin: 0.2em 0em 1em 3em }
+p.listbc8 	{margin: 0.2em 0em 1em 3em }
+p.listbc9 	{margin: 0.2em 0em 1em 3em }
+
+p.listb0 	{margin: 0.2em 0em 1em 3em }
+p.listb1 	{margin: 0.2em 0em 1em 3em  }
+p.listb2 	{margin: 0.2em 0em 1em 3em  }
+p.listb3 	{margin: 0.2em 0em 1em 3em  }
+p.listb4 	{margin: 0.2em 0em 1em 3em  }
+p.listb5 	{margin: 0.2em 0em 1em 3em  }
+p.listb6 	{margin: 0.2em 0em 1em 3em  }
+p.listb7 	{margin: 0.2em 0em 1em 3em  }
+p.listb8 	{margin: 0.2em 0em 1em 3em  }
+p.listb9 	{margin: 0.2em 0em 1em 3em  }
+*/
+.wrap span{ background: #fffaee; display:block; border:1px solid #d2d1c2;margin:10px 10px;  }
+.secWrap { background: #fffaee; display:block; border:1px solid #d2d1c2;margin:10px 10px;  }
+p.sec 	{margin: 0.2em 0em 1em 2em; color:#80161c; font-weight:bold; font-size:14px; border-left:0px solid #80161c; padding-left:15px;  }
+
+xppdata.xppdata{color:white; background-color: red; font-weight: bold; font-size:large}
+
+p.subsec1 	{margin: 0.2em 0em 1em 2em; color:brown; font-weight:bold }
+p.subsec2 	{margin: 0.2em 0em 1em 2em; color:chocolate; font-weight:bold }
+p.subsec3 	{margin: 0.2em 0em 1em 2em; color:coral; font-weight:bold }
+
+/* toc */
+p.sec_toc 				{margin: 0.2em 6em 1em 2em; color:navy; font-weight:bold }
+p.subsec1_toc 	{margin: 0.2em 0em 1em 2em; color:brown; font-weight:bold }
+p.subsec2_toc 	{margin: 0.2em 0em 1em 2em; color:chocolate; font-weight:bold }
+p.subsec3_toc 	{margin: 0.2em 0em 1em 2em; color:coral; font-weight:bold }
+
+/* margin: top-right-bottom-left*/
+table.table	{margin: 0.2em 0em 1em 0em; color:darkred; font-weight:bold; font-size:10pt}
+
+p.debug 	{margin: 0em 0em 0em 0em; font-weight:bold; font-size:large; text-align:center; color:red }
+
+
+/* added by SGE for the */
+#modalContainer {
+	background-color:transparent;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	
+
+}
+
+#alertBox {
+	position:relative;
+	width:500px;
+	min-height:150px;
+	margin-top:50px;
+	border:2px solid #000;	
+	background-color:#F2F5F6;	
+	background-repeat:no-repeat;
+	background-position:20px 30px;
+}
+
+#modalContainer > #alertBox {
+	position:fixed;
+}
+
+#alertBox h1 {
+	margin:0;
+	font:bold verdana,arial;
+	background-color:#800000;
+	color:#FFF;
+	border-bottom:1px solid #000;
+	padding:2px 0 2px 5px;
+}
+
+#alertBox p {
+	font:verdana,arial;
+	height:80px;
+	padding-left:5px;
+	margin-left:55px;
+}
+
+#alertBox #closeBtn {
+	display:block;
+	position:relative;
+	margin:5px auto;
+	padding:3px;
+	border:1px solid #000;
+	width:70px;
+	font: verdana,arial;
+	text-transform:uppercase;
+	text-align:center;
+	color:#FFF;
+	background-color:#800000;
+	text-decoration:none;
+}
+
+#simpleTooltip { padding: 2px; border: 1px solid #A6A7AB; background: #F2F3F5; }
+span.hidden_block{ border:none; background:#fff;} 
+a.showURLs.hover { color:#000; background:url(http://devlibrary.municode.com/images/copy_h.png) top right no-repeat;  }
+
